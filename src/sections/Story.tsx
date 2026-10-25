@@ -348,7 +348,7 @@ export function Heard() {
           {[
             { t: "By day: hard to beat", c: "var(--accent)", p: "The cheapest option, and captains accept fast. That's why riders choose bikes over autos and cabs." },
             { t: "Night: supply leaves", c: "var(--rider)", p: "Bikes are hard to find after 9–10 PM. Idle captains wait near home, and many also drive for Uber, Ola, Swiggy or Zomato." },
-            { t: "Night: trust leaves", c: "var(--rider)", p: "Women avoid bikes after 8–9 PM. Rash driving was the top reason people refused to ride. One rider had a serious leg injury." },
+            { t: "Night: trust leaves", c: "var(--rider)", p: "All 6 women I spoke to avoid bikes after 8–9 PM. All 3 non-riders refuse over rash driving and personal safety. One rider had a serious leg injury." },
           ].map((x, i) => (
             <Reveal key={x.t} delay={i * 0.06} className="card" >
               <div className="card-title" style={{ borderLeft: `3px solid ${x.c}`, paddingLeft: 12 }}>{x.t}</div>

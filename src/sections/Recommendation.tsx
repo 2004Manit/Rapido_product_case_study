@@ -54,7 +54,7 @@ export function Recommendation() {
       tag: "Trust · demand",
       title: "Night-verified captains",
       body: "A riding score for every captain, all day, built from phone sensors (harsh braking, speeding, phone use while riding) plus ratings. After 9 PM, its top band becomes night-verified: riders can choose verified-only, and captains earn a night premium for keeping the badge.",
-      why: "rash driving was the top reason people refused to ride, and it happens all day. At night it's what makes people stop booking, so that's where the score becomes a requirement.",
+      why: "rash driving and personal safety are why all 3 non-riders refuse to ride, and rash driving happens all day. At night it's what makes people stop booking, so that's where the score becomes a requirement.",
     },
     {
       tag: "Trust · product · table stakes",

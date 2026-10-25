@@ -104,6 +104,7 @@ export const RESEARCH = {
     { label: "Women who avoid bikes after 8–9 PM", n: 6, of: 6, display: "6 of 6", night: true, note: "5 women riders and 1 woman non-rider" },
     { label: "Find it hard to get a bike at night", n: 28, of: 42, display: "28 of 42", night: true },
     { label: "Raised rash driving as a concern", n: 15, of: 42, display: "15 of 42", night: true },
+    { label: "Non-riders who refuse over rash driving and safety", n: 3, of: 3, display: "3 of 3", night: true },
     { label: "Chose bikes mainly for the price", n: 39.5, of: 42, display: "39–40 of 42" },
   ],
   captainRows: [
