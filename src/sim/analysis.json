@@ -1,0 +1,140 @@
+{
+  "seeds": 200,
+  "hours": [
+    "6 PM",
+    "7 PM",
+    "8 PM",
+    "9 PM",
+    "10 PM",
+    "11 PM",
+    "12 AM"
+  ],
+  "strategies": [
+    {
+      "id": "none",
+      "label": "Do nothing",
+      "nightPct": 57.7,
+      "spent": 0,
+      "captainPerHour": 102,
+      "lost": 21,
+      "skippedTrust": 106,
+      "skippedPrice": 0,
+      "extraNightRides": 0,
+      "costPerExtraRide": null,
+      "onlineByHour": [
+        42,
+        48.9,
+        48.1,
+        43.1,
+        26.7,
+        16.8,
+        11.3
+      ]
+    },
+    {
+      "id": "surge",
+      "label": "Surge 1.5× after 9 PM",
+      "nightPct": 47.3,
+      "spent": 0,
+      "captainPerHour": 105,
+      "lost": 2,
+      "skippedTrust": 104,
+      "skippedPrice": 55,
+      "extraNightRides": -31.3,
+      "costPerExtraRide": null,
+      "onlineByHour": [
+        42,
+        48.9,
+        48.1,
+        43.1,
+        30.4,
+        19.1,
+        12.8
+      ]
+    },
+    {
+      "id": "bonus",
+      "label": "Zone bonuses (Gurgaon + CP)",
+      "nightPct": 63.7,
+      "spent": 2941,
+      "captainPerHour": 114,
+      "lost": 7,
+      "skippedTrust": 103,
+      "skippedPrice": 0,
+      "extraNightRides": 16.5,
+      "costPerExtraRide": 178,
+      "onlineByHour": [
+        42,
+        48.9,
+        48.1,
+        43.1,
+        30.5,
+        20.9,
+        14.3
+      ]
+    },
+    {
+      "id": "verified",
+      "label": "Night-verified captains",
+      "nightPct": 73.7,
+      "spent": 3283,
+      "captainPerHour": 118,
+      "lost": 50,
+      "skippedTrust": 23,
+      "skippedPrice": 0,
+      "extraNightRides": 46.5,
+      "costPerExtraRide": 71,
+      "onlineByHour": [
+        42,
+        48.9,
+        48.1,
+        43.6,
+        31.4,
+        22.7,
+        16
+      ]
+    },
+    {
+      "id": "shield",
+      "label": "Verified + zone bonuses",
+      "nightPct": 78.8,
+      "spent": 6972,
+      "captainPerHour": 133,
+      "lost": 37,
+      "skippedTrust": 23,
+      "skippedPrice": 0,
+      "extraNightRides": 62.1,
+      "costPerExtraRide": 112,
+      "onlineByHour": [
+        42,
+        48.9,
+        48.1,
+        43.6,
+        33.6,
+        25.7,
+        19.3
+      ]
+    },
+    {
+      "id": "max",
+      "label": "Everything, all night",
+      "nightPct": 64.7,
+      "spent": 9901,
+      "captainPerHour": 153,
+      "lost": 7,
+      "skippedTrust": 23,
+      "skippedPrice": 184,
+      "extraNightRides": 18.6,
+      "costPerExtraRide": 533,
+      "onlineByHour": [
+        42,
+        49.4,
+        48.9,
+        46.5,
+        37.5,
+        28.4,
+        21
+      ]
+    }
+  ]
+}
